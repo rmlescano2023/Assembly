@@ -17,6 +17,7 @@ This assembly program solves a puzzle using NASM (Netwide Assembler) syntax and 
 <br>
 
 Problem Description:
+
 The code uses the digits 1 through 5, with specific rules:
 * The first two digits add up to 8.
 * The difference between the second and fifth digits equals the fourth digit.
@@ -24,7 +25,7 @@ The code uses the digits 1 through 5, with specific rules:
 
 <br>
 
-PROGRAM FLOW
+## PROGRAM FLOW
 
 Data Declaration:
 * Strings like problem description, answer header, and digits 1–5 are stored in the .data segment.
