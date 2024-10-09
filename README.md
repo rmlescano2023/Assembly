@@ -32,6 +32,7 @@ Data Declaration:
 * Variables a, b, c, d, e are declared in the .bss segment, representing the five digits of the code.
 
 Main Code Logic:
+
 The program prints the problem description and starts solving the clues step by step.
 * Clue 1: The first two digits (a and b) add up to 8. The program assumes a = 3, then calculates b = 5.
 * Clue 2: The difference between the second (b) and fifth (e) digits equals the fourth (d). The program assumes e = 4, then calculates d = 1.
