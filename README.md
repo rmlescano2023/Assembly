@@ -24,11 +24,18 @@ This assembly program checks whether a given year is a leap year based on user i
 * If the year is divisible by 100 but not by 400, it is not a leap year.
 * If the year is divisible by 4 but not by 100, it is a leap year.
 * Any other case means the year is not a leap year.
+
 The program prompts the user to enter a year, performs division to check for leap year conditions, and prints the corresponding message. It uses division operations and conditional jumps to control the flow based on the remainders of the division. The results are printed based on whether the year meets the criteria for being a leap year or not.
 
 <br>
 
 ## LAB 3
+
+This assembly program calculates the least common multiple (LCM) of two integers provided by the user. The program first prompts the user for two integer inputs and checks if either of the numbers is zero, as the LCM is undefined in such cases. 
+
+The program determines the maximum and minimum of the two input values and initializes a multiplier to start from one. It then enters a loop where it multiplies the maximum value by the current multiplier and checks if the result is divisible by the minimum value. If it is divisible, that result is the LCM; if not, the multiplier is incremented, and the process repeats until a valid LCM is found.
+
+The program concludes by displaying the two input integers and their corresponding LCM. If either of the inputs is zero, it indicates that the LCM is undefined.
 
 <br>
 
