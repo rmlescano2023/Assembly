@@ -16,7 +16,7 @@ This assembly program solves a puzzle using NASM (Netwide Assembler) syntax and 
 
 <br>
 
-Problem Description:
+#### PROBLEM DESCRIPTION
 
 The code uses the digits 1 through 5, with specific rules:
 * The first two digits add up to 8.
