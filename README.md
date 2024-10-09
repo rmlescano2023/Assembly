@@ -25,7 +25,7 @@ The code uses the digits 1 through 5, with specific rules:
 
 <br>
 
-## PROGRAM FLOW
+#### PROGRAM FLOW
 
 Data Declaration:
 * Strings like problem description, answer header, and digits 1–5 are stored in the .data segment.
