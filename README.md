@@ -14,13 +14,17 @@ This program takes two integer values from the user and stores it to two created
 
 This assembly program solves a puzzle using NASM (Netwide Assembler) syntax and simulates the process of calculating a five-digit code based on provided clues. Here's a breakdown of the main points:
 
+<br>
+
 Problem Description:
 The code uses the digits 1 through 5, with specific rules:
 * The first two digits add up to 8.
 * The difference between the second and fifth digits equals the fourth digit.
 * The middle digit (third) is the quotient of the product of the first and last digits divided by 6.
 
-Program Flow:
+<br>
+
+PROGRAM FLOW
 
 Data Declaration:
 * Strings like problem description, answer header, and digits 1–5 are stored in the .data segment.
