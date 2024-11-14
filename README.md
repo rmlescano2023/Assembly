@@ -4,19 +4,19 @@
 
 <br>
 
-## LAB 0
+## LAB 00
 
 This assembly program for NASM allows a user to input two integer values into variables named 'jack' and 'jill', then displays their values, swaps the two variables, and prints the new values. The program is structured into three main phases: taking input from the user, printing the initial values ("Before the fall"), and swapping the values of 'jack' and 'jill' before printing the swapped values ("After the fall"). It uses basic input/output operations, arithmetic, and data movement to accomplish the task, demonstrating foundational assembly programming concepts like variable manipulation and stack management.
 
 <br>
 
-## LAB 1
+## LAB 01
 
 This program solves a logical puzzle by computing a five-digit code based on specific clues. The puzzle involves the sum of the first two digits equaling 8, the difference between the second and fifth digits equaling the fourth digit, and the middle digit being the quotient of the product of the first and last digits divided by 6. The program systematically computes the values of each digit: the first digit is 3, the second is 5, the fifth is 4, the fourth is 1, and the third is 2. These values are derived using arithmetic operations, and the final code `35214` is displayed. The program demonstrates efficient use of assembly language for problem-solving, utilizing basic control flow, arithmetic, and output formatting.
 
 <br>
 
-## LAB 2
+## LAB 02
 
 This assembly program checks whether a given year is a leap year based on user input. It mirrors the functionality of the C program that evaluates leap years using the following conditions:
 
@@ -29,7 +29,7 @@ The program prompts the user to enter a year, performs division to check for lea
 
 <br>
 
-## LAB 3
+## LAB 03
 
 This assembly program calculates the least common multiple (LCM) of two integers provided by the user. The program first prompts the user for two integer inputs and checks if either of the numbers is zero, as the LCM is undefined in such cases. 
 
@@ -39,25 +39,25 @@ The program concludes by displaying the two input integers and their correspondi
 
 <br>
 
-## LAB 4
+## LAB 04
 
 This assembly program performs bitwise shifting operations on a user-provided integer. It begins by prompting the user to enter a number and the number of bit positions to shift. Once the inputs are received, the program executes a left shift (`<<`), which multiplies the number by \(2^n\) (where \(n\) is the specified number of positions), followed by a right shift (`>>`), which divides the number by \(2^n\) and truncates any remainder. The results of both operations are then displayed, showing the original number along with the results of the left and right shifts. This program effectively demonstrates the fundamentals of bitwise operations in assembly language, providing insight into how integer values can be manipulated at the bit level.
 
 <br>
 
-## LAB 5
+## LAB 05
 
 This assembly program performs bitwise operations on two integers input by the user. It begins by prompting the user to enter two numbers and then stores these values. The program calculates the results of three bitwise operations: AND (`&`), OR (`|`), and XOR (`^`). For each operation, the results are stored in separate variables. After computing the results, the program prints out each operation along with its result in a formatted output. The structure of the program showcases the fundamental principles of bitwise manipulation, providing a clear understanding of how these operations work at the binary level and how they can be implemented in assembly language.
 
 <br>
 
-## LAB 6
+## LAB 06
 
 This assembly program calculates the factorial of a user-defined number. It starts by prompting the user for input and initializes necessary variables to store the input number, a counter for the loop, and the product (which will hold the factorial result). The program then enters a loop where it multiplies the current product by the counter, incrementing the counter until it reaches the user-defined number. If the counter exceeds or equals the input number, the loop terminates, and the program proceeds to display the results. The output includes a message showing the input number and its corresponding factorial. This structure emphasizes basic programming concepts such as loops, conditionals, and arithmetic operations within assembly language, showcasing how to implement a common mathematical function at a low level.
 
 <br>
 
-## LAB 7
+## LAB 07
 
 This assembly program is designed to calculate the factorial of a user-defined number while demonstrating the use of a multi-module structure. It starts by prompting the user to enter a number for which the factorial is to be calculated. The program employs an external function, `get_int`, to read the user input and store it in a variable.
 
@@ -67,7 +67,7 @@ The program is structured to emphasize the separation of functionality across di
 
 <br>
 
-## LAB 8
+## LAB 08
 
 This assembly program is designed to generate a multiplication table based on user input received from a C file. The main function of the program is encapsulated in the `mult` procedure, which handles both the rows and columns of the multiplication table.
 
@@ -79,7 +79,7 @@ After finishing all columns for a particular row, the program prints a newline c
 
 <br>
 
-## LAB 9
+## LAB 09
 
 This assembly program computes Fibonacci numbers in a series, which can be interfaced with a C program. It begins by defining data segments for initialized and uninitialized data, including a message for an error case when the series is requested to start from zero. 
 
